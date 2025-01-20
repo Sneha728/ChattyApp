@@ -14,7 +14,7 @@ const { app,server }=require("./lib/socket");
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors(({
-   origin :"http://localhost:5173",
+   origin :"https://chattyhello.onrender.com",
    credentials:true
 })));
 
